@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+}
+
+.feature-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.feature-image {
+  width: 100px;
+  height: 00px;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+.feature-details {
+  flex: 1;
+}
+
+.feature-details h2 {
+  color: gold;
+}
+
+.feature-details p {
+  color: gold;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.header-container {
+  background-color: none;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+.image-box {
+  width: 100px;
+  height: auto;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-box img {
+  flex: 0 0 200px;
+  margin-right: 20px;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.right-nav {
+  margin-left: auto;
+}
+
+.menu-item {
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: gold;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right-nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.right-nav a {
+  text-decoration: none;
+  color: gold;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.right-nav a:hover {
+  color: goldenrod;
+}
+
+header {
+    text-align: center;
+    background-color: none;
+    font-style: oblique;
+    padding: 50px;
+    color: gold;
+}
+
+h1 {font-size: 28px;
+    margin-bottom: 10px;    
+}
+
+h5 {
+  color: gold;
+  font-style: oblique;
+  font-size: large;
+  font-weight: lighter;
+}
+
+#about p {
+  font-size: 18px;
+  color: gold;
+  line-height: 1.5;
+  background-color: none;
+}
+
+main {
+    padding: none;
+    font-size: 32px;
+    font-style: oblique;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: none;
+    color: gold;
+} 
+
+  .feature-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: none;
+    color: gold;
+    line-height: normal;
+  }
+
+  .feature-description {
+    text-align: center;
+    margin-top: 10px;
+    color: goldenrod;
+  }
+
+.container {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+}
+.learn-more {
+  text-decoration: none;
+    padding: 12px 24px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+cursor: pointer; 
+}
+
+.learn-more:hover {
+    background-color: rgb(219, 123, 123);
+}  
+
+p {
+    line-height: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal; 
+  
+}
+#welcome {
+    text-align: center;
+    color: gold;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#breakfast {
+    text-align: center;
+    color: gold;
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: normal;
+}
+#tasty {
+    text-align: center;
+    color: gold;
+    font-style: oblique;
+    font-size: 15px;
+    font-weight: lighter;
+}
+body{
+    background-image: url("pexels-cats-coming-1907227.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
